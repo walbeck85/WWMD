@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2026-01-04",
+    "totalResponses": 20
+  },
+  "responses": [
+    {
+      "id": 1,
+      "text": "Take a nap first, then decide.",
+      "category": "wisdom",
+      "mood": "relaxed"
+    },
+    {
+      "id": 2,
+      "text": "Have you tried barking at it?",
+      "category": "action",
+      "mood": "playful"
+    },
+    {
+      "id": 3,
+      "text": "Sometimes the best thing to do is just sit by the window and watch the world go by.",
+      "category": "philosophical",
+      "mood": "relaxed"
+    },
+    {
+      "id": 4,
+      "text": "Treats first, existential crisis later.",
+      "category": "comfort",
+      "mood": "playful"
+    },
+    {
+      "id": 5,
+      "text": "Every problem looks smaller after a good walk around the block.",
+      "category": "wisdom",
+      "mood": "relaxed"
+    },
+    {
+      "id": 6,
+      "text": "Wag first, ask questions never.",
+      "category": "action",
+      "mood": "playful"
+    },
+    {
+      "id": 7,
+      "text": "If it scares you, sniff it. Knowledge is power.",
+      "category": "action",
+      "mood": "playful"
+    },
+    {
+      "id": 8,
+      "text": "You are someone's favorite person. Don't forget that.",
+      "category": "comfort",
+      "mood": "relaxed"
+    },
+    {
+      "id": 9,
+      "text": "The vacuum is loud but temporary. This too shall pass.",
+      "category": "philosophical",
+      "mood": "relaxed"
+    },
+    {
+      "id": 10,
+      "text": "Roll in the grass. Literally or metaphorically, your call.",
+      "category": "comfort",
+      "mood": "playful"
+    },
+    {
+      "id": 11,
+      "text": "Chase it! You might catch it this time.",
+      "category": "action",
+      "mood": "playful"
+    },
+    {
+      "id": 12,
+      "text": "Lean on someone you love. That's the whole answer.",
+      "category": "comfort",
+      "mood": "relaxed"
+    },
+    {
+      "id": 13,
+      "text": "The squirrel doesn't care what you think, and neither should you.",
+      "category": "philosophical",
+      "mood": "playful"
+    },
+    {
+      "id": 14,
+      "text": "Find a sunny spot. Everything is clearer in the sun.",
+      "category": "wisdom",
+      "mood": "relaxed"
+    },
+    {
+      "id": 15,
+      "text": "Snuggle aggressively. Assert your need for comfort.",
+      "category": "action",
+      "mood": "playful"
+    },
+    {
+      "id": 16,
+      "text": "You've survived 100% of your bad days so far. Good boy/girl.",
+      "category": "comfort",
+      "mood": "relaxed"
+    },
+    {
+      "id": 17,
+      "text": "Dig deep. The answer might be buried somewhere unexpected.",
+      "category": "philosophical",
+      "mood": "playful"
+    },
+    {
+      "id": 18,
+      "text": "Stretch, drink water, then face the thing.",
+      "category": "wisdom",
+      "mood": "relaxed"
+    },
+    {
+      "id": 19,
+      "text": "The best adventures start with someone saying 'wanna go?'",
+      "category": "philosophical",
+      "mood": "playful"
+    },
+    {
+      "id": 20,
+      "text": "Be patient. The treat always comes eventually.",
+      "category": "wisdom",
+      "mood": "relaxed"
+    }
+  ],
+  "categories": ["wisdom", "action", "comfort", "playful", "philosophical"]
+}
