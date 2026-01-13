@@ -1,5 +1,6 @@
 import './Hero.css';
 import BoopButton from '../BoopButton/BoopButton';
+import murphyImage from '../../assets/images/murphy-hedcut.jpg';
 
 function Hero({ onBoop }) {
   return (
@@ -7,10 +8,13 @@ function Hero({ onBoop }) {
       <h1 className="hero__title">What Would Murphy Do?</h1>
       <div className="hero__murphy-container">
         <div className="hero__murphy-image">
-          {/* Placeholder for Murphy's image */}
-          <div className="hero__image-placeholder">
-            Murphy Image Goes Here
-          </div>
+          <button className="hero__image-button" type="button" aria-label="Boop Murphy's nose">
+            <img
+              src={murphyImage}
+              alt="Murphy, a black Labrador Retriever, in hedcut illustration style"
+              className="hero__image"
+            />
+          </button>
           <BoopButton onClick={onBoop} />
         </div>
       </div>

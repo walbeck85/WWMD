@@ -22,20 +22,37 @@
 
 .hero__murphy-image {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 
-.hero__image-placeholder {
+.hero__image-button {
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.hero__image-button:hover {
+  transform: scale(1.02);
+}
+
+.hero__image-button:focus {
+  outline: 3px solid #D4A853;
+  outline-offset: 4px;
+}
+
+.hero__image {
   width: 100%;
   height: 100%;
-  background-color: #e0e0e0;
+  object-fit: cover;
+  object-position: center top;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-size: 1.2rem;
 }
 
 .hero__tagline {
@@ -43,4 +60,16 @@
   font-size: 1.2rem;
   color: #666;
   font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .hero__murphy-image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .hero__image-button {
+    width: 300px;
+    height: 300px;
+  }
 }
